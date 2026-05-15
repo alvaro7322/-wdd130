@@ -1,3 +1,8 @@
+:root {
+    --gerenal-align: center;
+    --default-border: 1px solid black;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -21,11 +26,11 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.025);
+    border: (--default-border);
     padding: 1rem;
     background-color: rgba(211, 222, 218, 0.159);
     color: black;
-    text-align: center;
+    text-align: var(--gerenal-align);
 
 }
 
@@ -37,7 +42,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid rgba(0, 0, 0, 0.211);
+    border: (--default-border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -48,6 +53,6 @@ p {
 
 footer {
     margin-top: 15px;
-    border-top: 1px #000;
-    text-align: center;
+    border-top: (--default-border);
+    text-align: var(--gerenal-align);
 }
