@@ -9,7 +9,7 @@
 
 * {
     margin: 0;
-    border: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -30,7 +30,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--primary-color);
     background-color: var(--accent1-color);
     text-align: center;
 }
