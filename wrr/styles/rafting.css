@@ -31,6 +31,8 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
+    background-color: var(--accent1-color);
+    text-align: center;
 }
 
 nav,
@@ -84,6 +86,11 @@ h1 {
 
 header img {
     height: 45px;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: auto;
 }
 
 #00f5d4 rgb(196, 196, 202)
