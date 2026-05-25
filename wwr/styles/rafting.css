@@ -91,6 +91,7 @@ h1 {
 .hero article img {
     width: 160px;
     height: auto;
+    float: right;
 }
 
 header img {
