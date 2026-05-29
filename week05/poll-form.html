@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <main>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">Email address:</label>
+            <input type="text" name="Email" id="email" required>
+            <label for="favorite browser">What is your favorite browser?</label>
+            <select name="favorite browser" id="favorite browser">
+                <option value="Opera">Opera</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Edge">Edge</option>
+            </select>
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" name="pet" id="pet">
+            <label for="feedback">List the places you have lived:</label>
+            <textarea name="feedback" id="feedback" rows="4"
+              placeholder="Tonga, China, Bolivia"></textarea>
+            <button type="submit">Submit pool</button>
+        </form>
+    </main>
+
+</body>
+
+</html>

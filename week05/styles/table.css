@@ -1,0 +1,24 @@
+:root {
+    --border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border: var(--border);
+    letter-spacing: normal;
+    font-size: 0.8rem;
+}
+
+th,
+td {
+    border: var(--border);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
